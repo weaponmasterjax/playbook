@@ -68,9 +68,9 @@ actions:
   - !registryValue: {path: 'HKU\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager', value: 'SystemPaneSuggestionsEnabled', type: REG_DWORD, data: '0'}
 
   # ======> Clipboard
-  # === Clipboard History - Off
-  - !registryValue: {path: 'HKCU\Software\Microsoft\Clipboard', value: 'EnableClipboardHistory', type: REG_DWORD, data: '0'}
-  - !registryValue: {path: 'HKU\.DEFAULT\Software\Microsoft\Clipboard', value: 'EnableClipboardHistory', type: REG_DWORD, data: '0'}
+  # === Clipboard History - On
+  - !registryValue: {path: 'HKCU\Software\Microsoft\Clipboard', value: 'EnableClipboardHistory', type: REG_DWORD, data: '1'}
+  - !registryValue: {path: 'HKU\.DEFAULT\Software\Microsoft\Clipboard', value: 'EnableClipboardHistory', type: REG_DWORD, data: '1'}
 
   # === Allow Clipboard History - Enabled (default)
   # ------> Clipboard won't work if disabled.
