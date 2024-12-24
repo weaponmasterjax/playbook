@@ -15,12 +15,9 @@ actions:
       .\APPX-REMOVER.ps1 -Packages @(
         'Microsoft.Windows.SecureAssessmentBrowser',
         'Microsoft.Windows.PeopleExperienceHost',
-        'Microsoft.WindowsCamera',
         'MicrosoftWindows.Client.WebExperience',
         'Microsoft.WidgetsPlatformRuntime',
-        'Microsoft.WindowsAlarms',
         'Microsoft.WindowsMaps',
-        'Microsoft.MicrosoftStickyNotes',
         'microsoft.windowscommunicationsapps',
         'Microsoft.People',
         'Microsoft.BingNews',
@@ -30,14 +27,12 @@ actions:
         'Microsoft.WindowsFeedbackHub',
         'Microsoft.GetHelp',
         'Microsoft.Getstarted',
-        'Microsoft.Todos',
         'Microsoft.PowerAutomateDesktop',
         'Microsoft.549981C3F5F10', # Cortana
         'MicrosoftCorporationII.QuickAssist',
         'MicrosoftCorporationII.MicrosoftFamily',
         'Microsoft.ZuneMusic',
         'Microsoft.ZuneVideo',
-        'Microsoft.WindowsSoundRecorder',
         'Clipchamp.Clipchamp',
         'Microsoft.Whiteboard',
         'Microsoft.MicrosoftTeamsforSurfaceHub',
@@ -56,7 +51,6 @@ actions:
         'Microsoft.Microsoft3DViewer',
         'Microsoft.Advertising',
         'MixedReality.Portal',
-        'Microsoft.MSPaint', # Paint 3D
         'MicrosoftTeams',
         'MSTeams', # New Teams
         'Microsoft.StartExperiencesApp'
