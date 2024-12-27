@@ -38,7 +38,6 @@ actions:
         'Microsoft.MicrosoftTeamsforSurfaceHub',
         'MicrosoftCorporationII.MailforSurfaceHub',
         'Microsoft.MicrosoftPowerBIForWindows',
-        'Microsoft.SkypeApp',
         'Microsoft.MicrosoftOfficeHub',
         'Microsoft.Office.Excel',
         'Microsoft.Office.PowerPoint',
@@ -51,8 +50,6 @@ actions:
         'Microsoft.Microsoft3DViewer',
         'Microsoft.Advertising',
         'MixedReality.Portal',
-        'MicrosoftTeams',
-        'MSTeams', # New Teams
         'Microsoft.StartExperiencesApp'
       )
 
